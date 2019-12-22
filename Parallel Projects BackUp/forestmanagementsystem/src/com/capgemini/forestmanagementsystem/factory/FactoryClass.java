@@ -4,7 +4,6 @@ import com.capgemini.forestmanagementsystem.dao.ForestDao;
 import com.capgemini.forestmanagementsystem.dao.ForestDaoImpl;
 import com.capgemini.forestmanagementsystem.dto.ContractDetails;
 import com.capgemini.forestmanagementsystem.dto.CustomerDetail;
-import com.capgemini.forestmanagementsystem.dto.HaulierDetails;
 import com.capgemini.forestmanagementsystem.dto.ProductDetails;
 
 public class FactoryClass {
@@ -24,16 +23,11 @@ public class FactoryClass {
 		
 	}
 	
-	public static HaulierDetails getHaulierDetailsObject() {
-		return new HaulierDetails();
-		
-	}
 	
 	public static  ForestDao getForestDAOImplObject() {
 		return new ForestDaoImpl();
 		
 	}
-	
 	
 	
 	

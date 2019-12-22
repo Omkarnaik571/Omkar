@@ -4,7 +4,7 @@ import java.util.Map;
 
 import com.capgemini.forestmanagementsystem.dto.ContractDetails;
 import com.capgemini.forestmanagementsystem.dto.CustomerDetail;
-import com.capgemini.forestmanagementsystem.dto.HaulierDetails;
+import com.capgemini.forestmanagementsystem.dto.LandDetails;
 import com.capgemini.forestmanagementsystem.dto.ProductDetails;
 
 
@@ -18,6 +18,12 @@ public Map<Integer, ContractDetails> addTheContractDetails(ContractDetails cdbea
 	
 	
 	public Map<Integer, ProductDetails> addTheProductDetails(ProductDetails pd);
+	
+	public Map<Integer, LandDetails> addTheLandDetails(LandDetails ld);
+	
+	public Map<Integer, String> addTheClientDetails();
+	
+	public Map<Integer, String> getTheClientDetails();
 	
 	
 	
